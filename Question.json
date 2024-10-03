@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is not a Java feature?",
+        "option": ["Object-oriented", "Use of pointers", "Platform Independent", "Dynamic"],
+        "correctAnswer": "Use of pointers",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 2,
+        "question": "Which data type is used to create a variable that should store text?",
+        "option": ["myString", "Txt", "string", "String"],
+        "correctAnswer": "String",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 3,
+        "question": "What is the size of a 'byte' data type in Java?",
+        "option": ["4 bits", "8 bits", "16 bits", "32 bits"],
+        "correctAnswer": "8 bits",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 4,
+        "question": "Which method must be implemented by all Java threads?",
+        "option": ["start()", "run()", "stop()", "wait()"],
+        "correctAnswer": "run()",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 5,
+        "question": "Which keyword is used to prevent inheritance of a class in Java?",
+        "option": ["static", "final", "volatile", "private"],
+        "correctAnswer": "final",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 6,
+        "question": "What is the default value of a boolean variable in Java?",
+        "option": ["true", "false", "null", "0"],
+        "correctAnswer": "false",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is used to find and fix bugs in Java programs?",
+        "option": ["JVM", "JRE", "JDK", "JDB"],
+        "correctAnswer": "JDB",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is a reserved keyword in Java?",
+        "option": ["array", "goto", "null", "Integer"],
+        "correctAnswer": "goto",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 9,
+        "question": "What does the 'public' keyword in a method declaration mean?",
+        "option": ["Method is accessible to the same class only", "Method is accessible to the package", "Method is accessible to all classes", "Method is accessible to the subclass"],
+        "correctAnswer": "Method is accessible to all classes",
+        "userAnswer": null,
+        "visited": false
+    },
+    {
+        "id": 10,
+        "question": "Which operator is used to compare two values in Java?",
+        "option": ["=", "==", "equals()", "!="],
+        "correctAnswer": "==",
+        "userAnswer": null,
+        "visited": false
+    }
+]

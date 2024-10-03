@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Quiz.css">
+    <title>Test-Fresher</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href=""><img src="./img/QuizLogo.png" alt="Quiz Logo"></a>
+        </div>
+        <div class="header-options">
+            <ul>
+                <li><a href="">Quiz</a></li>
+                <li><a href="">Assignment</a></li>
+                <li><a href="">ELP</a></li>
+                
+                <li><a href="">Work Space</a></li>
+                <li><a href="">Profile</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <div class="main-paragraph"><h3>🥳🥳🥳Please start your test. Best of luck for the Tes🥳🥳🥳</h3></div>
+        <div>
+            <h3 id="timing">Time Left :<span id="hr">--00 --</span><span id="min">00 --</span><span id="sec">00 --</span></h3>
+        </div>
+        <section id="quiz-cont">
+            <div id="que"></div>
+        </section>
+        <section id="option-cont">
+            <div id="opt"></div>
+        </section>
+        <div id="legends">
+            <h3><span id="visited">00</span> Visited</h3>
+            <h3><span id="not-visited">00</span> Not Visited</h3>
+            <h3><span id="answered">00</span> Answered</h3>
+            <h3><span id="not-answered">00</span> Not Answered</h3>
+        </div>
+    </main>
+    <footer>
+        <div><button id="prev-btn">Previous</button><button id="next-btn">Next</button></div>
+        <div><button id="submit-btn" type="submit">Submit</button></div>
+    </footer>
+    <section id="button-cont">
+        <div id="btn"></div>
+    </section>
+    <script src="./Quiz.js"></script>
+</body>
+</html>
